@@ -62,6 +62,9 @@ f=open('./Fig/4.txt', 'r')
 st.write(f.read())
 f.close()
 
+st.subheader('Help')
+st.write("If loading bars of interactive networks show 0%, please visit the following URL: https://github.com/WestHealth/pyvis/issues/25")
+
 #sidebar
 st.sidebar.title('Select an analysis method')
 urla = "https://itranet-a.streamlit.app/"
