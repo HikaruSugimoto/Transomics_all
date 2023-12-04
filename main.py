@@ -64,7 +64,7 @@ f.close()
 
 st.subheader('Help')
 st.write("If loading bars of interactive networks show 0%, please visit the following URL: https://github.com/WestHealth/pyvis/issues/25")
-
+st.write("More details and case studies of iTraNet (doi: https://doi.org/10.1101/2023.11.30.569499)")
 #sidebar
 st.sidebar.title('Select an analysis method')
 urla = "https://itranet-a.streamlit.app/"
