@@ -40,7 +40,7 @@ plt.rcParams['figure.dpi'] = 300
 #Main
 st.set_page_config(layout="wide")
 st.title("iTraNet: integrated Trans-Omics Network Visualization and Analysis")
-st.write("This website is free and open to all users and there is no login requirement.")
+#st.write("This website is free and open to all users and there is no login requirement.")
 
 image = Image.open('./Fig/0.png')
 st.image(image, caption='',use_column_width=True)
